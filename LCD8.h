@@ -1,9 +1,9 @@
 #include<htc.h>
 #include"GPIO.h"
 #define _XTAL_FREQ 8000000
-#define RS 2
-#define RW 1
-#define EN 0
+#define RS 2    //
+#define RW 1    // ON C PORT
+#define EN 0    //
 
 void LCD_init();
 void LCD_cmd(unsigned char cmd);
